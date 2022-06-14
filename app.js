@@ -25,9 +25,9 @@ async function getData() {
         });
     };
         
-    const getPost = (post_id) => {
+    const getPost = (user_id) => {
         return new Promise(async(resolve, reject) => {
-            const { data } = await  axios("https://jsonplaceholder.typicode.com/posts/" + post_id);
+            const { data } = await  axios("https://jsonplaceholder.typicode.com/posts?userId=" + user_id);
 
             resolve(data);
             reject("Bir sorun daha oluştu!")
