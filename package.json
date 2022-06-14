@@ -1,0 +1,25 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kHealer/react-hw-1.git"
+  },
+  "author": "\"Safa Helvaci <helvacisefa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kHealer/react-hw-1/issues"
+  },
+  "homepage": "https://github.com/kHealer/react-hw-1#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-fetch": "^3.2.6",
+    "slugify": "^1.6.5"
+  }
+}
